@@ -15,8 +15,9 @@ img {
 .header_container {
     display: flex;
     flex-flow: column;
+    margin: -15px;
     background-color: #1f2937;
-    border: 5px solid;
+    /* border: 5px solid; */
 }
 
 h1 {
@@ -38,7 +39,7 @@ ul {
 
 .top {
     display: flex;
-    border: 5px solid;
+    /* border: 5px solid; */
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
@@ -47,7 +48,7 @@ ul {
 
 .head_links {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     gap: 20px;
 }
 
@@ -56,7 +57,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     padding: 100px;
-    border: 5px solid;
+    /* border: 5px solid; */
 }
 
 .main_head {
@@ -71,23 +72,24 @@ ul {
     display: flex;
     gap: 50px;
     flex: 0 1 auto;
-    border: 5px solid;
+    /* border: 5px solid; */
 }
 
 .content1 { 
     width: 600px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .content2 {
     display: flex;
-    border: 5px solid red;  
+    /* border: 5px solid red;   */
 }
 
 .placeholder {
     display: flex;
     width: 500px;
     height: auto;
+    border: 0;
 }
 
 .button1 {
@@ -108,7 +110,7 @@ ul {
     font-weight: bold;
     color: #1f2937;
     margin-top: -25px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .body1 {
@@ -116,7 +118,7 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 100px;
-    border: 5px solid;
+    /* border: 5px solid; */
 }
 
 .info_container {
@@ -125,7 +127,7 @@ ul {
     width: min-content;
     padding: 25px;
     gap: 75px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .info {
@@ -133,7 +135,7 @@ ul {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    border: 5px solid;
+    /* border: 5px solid; */
 
 }
 
@@ -149,8 +151,9 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -15px;
     background-color: #e5e7eb;
-    border:  5px solid ;
+    /* border:  5px solid ; */
 }
 
 .body2_container {
@@ -159,13 +162,15 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 110px;
-    border: 5px solid rebeccapurple;
+    flex: 1 1 auto;
+    /* border: 5px solid rebeccapurple; */
 }
 
 .quote_container {
     display: flex;
     width: 1000px;
-    border: 5px solid red;
+    flex: content;
+    /* border: 5px solid red; */
 }
 
 .quote_container h2 {
@@ -181,7 +186,7 @@ ul {
     font-size: 24px;
     font-weight: bold;
     color: #1f2937;
-    border: 5px solid;
+    /* border: 5px solid; */
 }
 
 /* BODY3 SECTION */
@@ -192,7 +197,7 @@ ul {
     align-items: center;
     color: #f9faf8;
     font-size: larger;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 
 .body3_container {
@@ -205,7 +210,7 @@ ul {
     margin: 100px;
     background-color: #3882f6;
     border-radius: 15px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .b3_bold {
@@ -229,6 +234,7 @@ ul {
 .b3_button a {
     font-size: 24px;
     color: #f9faf8;
+    flex: 0 1 auto;
     text-decoration: none;
 }
 
@@ -236,7 +242,8 @@ ul {
     display: flex;
     margin-top: -10px;
     gap: 250px;
-    border: 5px solid blue;
+    flex: 0 1 auto;
+    /* border: 5px solid blue; */
 }
 
 /* FOOTER SECTION */
@@ -244,8 +251,9 @@ ul {
 .footer {
     display: flex;
     justify-content: center;
+    margin: -15px;
     padding: 50px;
     background-color: #1f2937;
     color: #e5e7eb;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
